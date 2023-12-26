@@ -359,7 +359,6 @@ footer{
 
     .searchdomain-container, .contact-container {
         padding: 3em 2em;
-        box-sizing: border-box;
     }
 
     .container .searchdomain-container input {
