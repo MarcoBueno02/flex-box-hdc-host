@@ -1,6 +1,6 @@
 /* GERAL */
 
-*{
+body, textarea {
     margin: 0;
     padding: 0;
     text-transform: capitalize;
@@ -48,4 +48,49 @@ nav {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
+}
+
+.navbar-items li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-items li a:hover {
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.default-btn:hover {
+    background-color: #22bb5f;
+}
+
+/* main banner */
+
+.main-banner {
+    background-image: url('img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 42px;
 }
