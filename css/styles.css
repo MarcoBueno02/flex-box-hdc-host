@@ -94,3 +94,15 @@ nav {
 .main-banner p {
     font-size: 42px;
 }
+
+/* especialidades */
+
+.specialties-container {
+    padding: 5em 0;
+}
+
+.specialties-container ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+}
